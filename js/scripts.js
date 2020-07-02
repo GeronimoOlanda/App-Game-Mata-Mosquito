@@ -18,7 +18,7 @@ if(document.getElementById('mosquito')){
     document.getElementById('mosquito').remove()
 
     if(vidas > 3){
-        alert("parrou")
+        window.location.href="fim_de_jogo.html"
     }else{
     document.getElementById('v'+vidas).src = "img/imagens/coracao_vazio.png"
     vidas++
