@@ -1,28 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo - Mata Mosquito</title>
-    <!-- CSS-->
-    <link rel="stylesheet" href="css/style.css">
     <!--Icon-->
     <link rel="icon" href="img/icon/icon.png">
- 
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        function iniciarJogo(){
+            
+            var nivel = document.getElementById('nivel').value
+
+            if(nivel === ''){
+                alert("selecione um nivel para iniciar o jogo")
+                return false
+            }
+           window.location.href="game.html?"+nivel
+        }
+    </script>
 </head>
-<body onresize="AjustaTamanhoJogo()">
-   <div class="painel">
-        <div class="vidas">
-            <img  id="v1" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
-            <img  id="v2" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
-            <img  id="v3" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img src="img/imagens/game.png">
+                </div>
+            </div>
         </div>
-        <div class="cronometro">Tempo Restante: ?</div>
-   </div>
-    <!-- scripts-->
-  <script>
-      setInterval(function(){posicaoRandomica()},1000 )
-  </script>
-    <script src="js/scripts.js"></script>
+        <!-- selecao do nivel-->
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="mb-2">
+                        <select  class="form-control" id="nivel">
+                            <option value="">---Selecionar o Nivel---</option>
+                            <option value="normal"> Normal</option>
+                            <option value="dificil">Dificil</option>
+                            <option value="chucknorris">Chuck Norris</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--criacao do butão-->
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-lg" onclick="iniciarJogo()">Iniciar Jogo</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

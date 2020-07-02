@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate o Mosquito</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Icon-->
+    <link rel="icon" href="img/icon/icon.png">
+    <script src="js/scripts.js"></script>
+</head>
+<body onresize="AjustaTamanhoJogo()">
+   <div class="painel">
+        <div class="vidas">
+            <img  id="v1" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
+            <img  id="v2" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
+            <img  id="v3" src="img/imagens/coracao_cheio.png" alt="Coração Cheio">
+        </div>
+        <div class="cronometro">Tempo Restante: <span id="cronometro"></span></div>
+   </div>
+
+    <!-- scripts-->
+  <script>
+       
+      document.getElementById('cronometro').innerHTML = tempo
+      var CriarMosquito = setInterval(function(){posicaoRandomica()}, CriarMosquitoTempo )
+  </script>
+    
+</body>
+</html>
