@@ -8,7 +8,7 @@ O jogo tem por objetivo eliminar o maximo de mosquitos em um determinado espaço
 
 **Medio:** modo no qual o surgimento dos mosquitos e desaparecimento é um pouco rapido.
 
-**Chucknorris:** o surgimento e o desaparecimento dos mosquitos são quase impossiveis de acompanhar, caso não tenha dominado os anteriores.
+**Chucknorris:** o surgimento e o desaparecimento dos mosquitos são quase impossiveis de acompanhar, caso não tenha dominado os modos anteriores.
 
 #### Linguagens Utilizadas
 
