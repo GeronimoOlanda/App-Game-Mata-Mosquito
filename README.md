@@ -6,7 +6,7 @@ O jogo tem por objetivo eliminar o maximo de mosquitos em um determinado espaço
 
 **Normal:** modo no qual o surgimento dos mosquitos e desaparecimento é mais demorado.
 
-**Medio::** modo no qual o surgimento dos mosquitos e desaparecimento é um pouco rapido.
+**Medio:** modo no qual o surgimento dos mosquitos e desaparecimento é um pouco rapido.
 
 **Chucknorris:** o surgimento e o desaparecimento dos mosquitos são quase impossiveis de acompanhar, caso não tenha dominado os anteriores.
 
