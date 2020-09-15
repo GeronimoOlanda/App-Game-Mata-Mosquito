@@ -2,7 +2,7 @@
 
 
 #### Objetivo do Jogo
-O jogo tem por objetivo eliminar o maximo de mosquitos em um determinado espaço de tempo, delimitado em 60segundos,o jogo é dividido em 3 modos, sendo eles:
+O jogo tem por objetivo eliminar o maximo de mosquitos em um determinado espaço de tempo, delimitado em 60 segundos,o jogo é dividido em 3 modos, sendo eles:
 
 **Normal:** modo no qual o surgimento dos mosquitos e desaparecimento é mais demorado.
 
