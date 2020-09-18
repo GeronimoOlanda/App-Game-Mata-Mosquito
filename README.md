@@ -13,7 +13,7 @@ O jogo tem por objetivo eliminar o maximo de mosquitos em um determinado espaço
 #### Linguagens Utilizadas
 
 * HTML5
-* CSS3
+* CSS3 
 * JavaScript
 
 ##### Viu alguma informação errada ou faltando? contribua com o projeto!
